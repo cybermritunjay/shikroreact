@@ -2,6 +2,18 @@ import React, { Component } from "react";
 import {Link} from 'react-router-dom';
 
 class Header extends Component {
+  state = {
+    navCollapsed: true
+  }
+
+  _onToggleNav = () => {
+    this.setState({ navCollapsed: !this.state.navCollapsed })
+    if( this.state.navCollapsed){
+      document.getElementById('navbarSupportedContent').style.display='block';
+    }else{
+      document.getElementById('navbarSupportedContent').style.display='none';
+    }
+  }
   render() {
     return (
         <header className="main_menu home_menu" id="mainMenu">
@@ -15,6 +27,7 @@ class Header extends Component {
                   <button
                     className="navbar-toggler"
                     type="button"
+                    onClick={this._onToggleNav}
                     data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
