@@ -25,9 +25,7 @@ class Authrizedistributer extends Component {
 
                 <div className="col-md-4">
                     <b> Easy Business Solution</b>
-                    <br />
                     
-                   Firm Owner : Ashish Kumar Gupta
                     <br />
                     GSTIN :: 23ASZPG9114E1ZM
                     <br />
