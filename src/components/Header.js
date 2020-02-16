@@ -47,11 +47,7 @@ class Header extends Component {
                           Home
                         </Link>
                       </li>
-                      <li className="nav-item">
-                        <Link className="nav-Link" to="/certificate">
-                          Trademark certificate
-                        </Link>
-                      </li>
+                    
                       <li className="nav-item">
                         <Link className="nav-Link" to="/authrizedistributer">
                           Authorized Distributor
