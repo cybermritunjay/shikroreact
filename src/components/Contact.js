@@ -66,7 +66,7 @@ class Contact extends Component {
           <div className="media contact-info">
             <span className="contact-info__icon"><i className="ti-home"></i></span>
             <div className="media-body">
-              <h3>Anand Mishra,Brand Owner
+              <h3>Anand Mishra, Asst. Manager
                 .</h3>
               <p> 34 , SIDDH NAGAR </p>
               <p>INFRONT OF M-191 VEENA NAGAR INDORE (M.P) 452001</p>
