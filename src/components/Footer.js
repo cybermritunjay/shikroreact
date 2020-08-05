@@ -34,10 +34,10 @@ class Footer extends Component {
                                     </div>
                                 </form>
                                 <div className="social_icon">
-                                    <Link to="/"> <i className="ti-facebook"></i> </Link>
-                                    <Link to="/"> <i className="ti-twitter-alt"></i> </Link>
-                                    <Link to="/"> <i className="ti-instagram"></i> </Link>
-                                    <Link to="/"> <i className="ti-skype"></i> </Link>
+                                  //  <Link to="/"> <i className="ti-facebook"></i> </Link>
+                                   // <Link to="/"> <i className="ti-twitter-alt"></i> </Link>
+                                    //<Link to="/"> <i className="ti-instagram"></i> </Link>
+                                    //<Link to="/"> <i className="ti-skype"></i> </Link>
                                 </div>
                             </div>
                         </div>
